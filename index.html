@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="font-serif text-base bg-gray-100">
+
+    <!-- Header and Navigation -->
+    <header class="bg-sky-400/10">
+        <nav class="flex justify-around items-center p-4">
+            <ul class="flex space-x-8">
+                <li><a href="#presentation" class="text-black text-sm hover:text-black hover:bg-sky-500/30 hover:rounded-md py-2 px-4 transition">Présentation</a></li>
+                <li><a href="#experiences" class="text-black text-sm hover:text-black hover:bg-sky-500/30 hover:rounded-md py-2 px-4 transition">Expériences</a></li>
+                <li><a href="#formations" class="text-black text-sm hover:text-black hover:bg-sky-500/30 hover:rounded-md py-2 px-4 transition">Formations</a></li>
+                <li><a href="#divers" class="text-black text-sm hover:text-black hover:bg-sky-500/30 hover:rounded-md py-2 px-4 transition">Divers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Presentation Section -->
+    <section id="presentation" class="flex flex-col items-center text-center py-8 px-6  mb-4 bg-white">
+        <div class="w-32 h-32 mb-2">
+            <img src="./avatar costard.jpg" alt="Avatar" class="rounded-full shadow-xl pulse-shadow w-full h-full object-cover">
+        </div>
+        
+        <h1 class="text-4xl mb-1"><strong>Bouboune Guichard</strong></h1>
+        <h5 class="text-xs mb-2"><strong><em>Développeur web et mobile</em></strong></h5>
+        <div class="text-xs mb-1 text-black">
+            <ul class="flex flex-col items-center space-y-2 border-8 m-4 p-2 rounded-xl shadow-xl shadow-sky-400/10 border-sky-300/10">
+                <li><strong><em>Adresse:</em></strong> 18 av du Maréchal Alphonse Juin, Marvejols 48100</li>
+                <li><strong><em>Mail:</em></strong> guydom@gmail.com</li>
+                <li><strong><em>Tel:</em></strong> 07.69.45.87.75</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="px-6 py-12">
+        
+        <!-- Competences Section -->
+        <section class="mb-12 p-6 bg-white">
+            <h2 class="text-lg text-center mb-6"><strong>À propos</strong> </h2>
+            <p class="text-xs">
+                Passionné par le développement web et mobile, je me suis reconverti après plusieurs années d’expérience dans des secteurs variés tels que la cuisine, le service client et la sécurité. Aujourd'hui, je me forme activement au métier de développeur web, avec des compétences solides en <em>HTML5</em>, <em>CSS3</em> et <em>JavaScript</em>, qui me permettent de créer des applications performantes et adaptées aux besoins des utilisateurs. Ma polyvalence, ma capacité d'adaptation et mon sens du service sont des atouts que je mets au service de chaque projet pour garantir sa réussite.
+            </p>
+            
+        </section>
+
+        <!-- Experiences Section -->
+        <section id="experiences" class="mb-12 p-6 bg-white">
+            <h2 class="text-lg text-center mb-6"><strong>Expériences Professionnelles</strong></h2>
+            <ul class="space-y-4">
+                <!-- Example Experience Item -->
+                <li><em>2024-2025</em> <strong>Développeur web et mobile</strong> - Greta Occitanie, Mende 48000
+                    <ul class="list-disc pl-5">
+                        <li>Maîtrise des langages HTML5, CSS3, JavaScript</li>
+                        <li>Développement d’applications web et mobiles responsives</li>
+                    </ul>
+                </li>
+                <!-- More experiences ... -->
+            </ul>
+        </section>
+
+        <!-- Formations Section -->
+        <section id="formations" class="mb-12 border-2 shadow-sky-400/10 border-sky-300/10 rounded-xl shadow-lg  p-6 bg-white">
+            <h2 class="text-lg text-center mb-6"><strong>Formations</strong></h2>
+            <ul class="flex justify-around space-x-6">
+                <li class="flex flex-col items-center">
+                    <i class="fab fa-html5 text-3xl text-orange-600 animate-bounce"></i>
+                    <span class="mt-2 text-xs animate-pulse"><em>HTML5</em></span>
+                </li>
+                <li class="flex flex-col items-center">
+                    <i class="fab fa-css3-alt text-3xl text-blue-500 animate-bounce"></i>
+                    <span class="mt-2 text-xs animate-pulse"><em>CSS3</em></span>
+                </li>
+                <li class="flex flex-col items-center">
+                    <i class="fab fa-js-square text-3xl text-yellow-500 animate-bounce"></i>
+                    <span class="mt-2 text-xs animate-pulse"><em>JS</em></span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Divers Section -->
+        <section id="divers">
+            <footer class="text-center py-8 bg-gray-200">
+                <h2 class="text-lg mb-4"><strong>Divers</strong></h2>
+                <p class="text-sm mb-4">Web: Administrateur de la page <a href="https://www.facebook.com/recettesantillaises" class="text-blue-500 hover:underline">“Recettes Antillaises”</a> sur Facebook.</p>
+                <div class="flex justify-center space-x-8">
+                    <a href="https://www.linkedin.com/in/guichard-bouboune-504609100/" target="_blank" class="text-xl text-blue-600 hover:text-blue-300 transition animate-pulse">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://discord.com/invite/yourdiscordlink" target="_blank" class="text-xl text-blue-600 hover:text-blue-300 transition animate-pulse">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </footer>
+        </section>
+
+    </main>
+</body>
+</html>
